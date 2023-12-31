@@ -12,7 +12,7 @@ type Props = {
 function GenrePage({ params: {id}, searchParams : {genre} }  : Props) {
     return(
         <div>
-            <p>Genre Page</p>
+            <p className='bg-yellow-300'>Genre Page</p>
         </div>
     )
 }

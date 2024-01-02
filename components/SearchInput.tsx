@@ -31,6 +31,8 @@ function SearchInput() {
 
         //redirect user to the page based on the search value
         router.push(`/search/${values.input}`)
+        //clear input after used
+        form.reset(); 
     }
 
     return(
@@ -48,8 +50,6 @@ function SearchInput() {
                     )}
                 />
             </form>
-
-
         </Form>
     )
 }
